@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.tablero{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+div{
+    width:33.33% ;
+    border: 1px solid black;
+    height: 200px;
+}
