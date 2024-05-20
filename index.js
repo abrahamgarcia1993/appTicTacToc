@@ -30,10 +30,10 @@ function consultarGanador() {
 }
 casillas.forEach(casilla => {
     casilla.addEventListener('click', () => {
-        if(contador===0 || contador%2==0){
+        if((contador===0 || contador%2==0)&& casilla.textContent==""){
             casilla.textContent="X"
             contador++
-        }else{
+        }else if(contador%2!==0 && casilla.textContent==""){
             casilla.textContent="O"
             contador++
        }
